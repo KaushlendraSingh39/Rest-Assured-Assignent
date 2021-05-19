@@ -14,8 +14,8 @@ This automation suite is designed to test the RESTFul services and its mainly co
 5. Java 1.8+ installed - It can run it on JDK 11 as well
 6. Maven Installed - version - 3.6.3
 7. Intellij ide - 
-  a. Install with Cucumber and Gherkin plugins 
-  b. Lombok plugin - version - 1.18.20 : This plugin is mainly being used to reduce Java verbosity and covering boilerplate stuff under the hood
+  i. Install with Cucumber and Gherkin plugins 
+  ii. Lombok plugin - version - 1.18.20 : This plugin is mainly being used to reduce Java verbosity and covering boilerplate stuff under the hood
   
 # Tests -
 The project has 31 scenarios that that can be located within the feature file:
