@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 110,
+        "name": "Verify GET operation for test case \"Pojo_TestCase_Positive_1\"",
+        "description": "",
+        "id": "api-tests;verify-get-operation-for-test-case-\"\u003ctestcasename\u003e\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11737831800,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "User verifies GET request for endpoint \"posts\" with param \"2\" and verifies the expected response \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "posts",
+                  "offset": 40
+                },
+                {
+                  "val": "2",
+                  "offset": 59
+                },
+                {
+                  "val": "1",
+                  "offset": 98
+                }
+              ],
+              "location": "TestStepdefs.userVerifiesGETRequestForEndpointWithParamAndVerifiesTheExpectedResponse(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 105,
+            "name": "@pojo"
+          }
+        ]
+      },
+      {
+        "line": 117,
+        "name": "Verify GET operation for test case \"Pojo_TestCase_Positive_2\"",
+        "description": "",
+        "id": "api-tests;verify-get-operation-for-test-case-\"\u003ctestcasename\u003e\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2424282300,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "User verifies GET request for comments endpoint \"comments\" with param \"2\" and verifies the expected response \"Jayne_Kuhic@sydney.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 49
+                },
+                {
+                  "val": "2",
+                  "offset": 71
+                },
+                {
+                  "val": "Jayne_Kuhic@sydney.com",
+                  "offset": 110
+                }
+              ],
+              "location": "TestStepdefs.userVerifiesGETRequestForCommentsEndpointWithParamAndVerifiesTheExpectedResponse(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 112,
+            "name": "@pojo"
+          }
+        ]
+      }
+    ],
+    "name": "API Tests",
+    "description": "This feature includes tests that test the API Methods of RESTFul services",
+    "id": "api-tests",
+    "keyword": "Feature",
+    "uri": "Test.feature"
+  }
+]
